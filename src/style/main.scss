@@ -6,7 +6,7 @@
 @import 'scheduleCourse';
 @import 'progressTracker';
 
-.home{
+.home {
     height: 100vh;
     width: 100vw;
 
@@ -15,21 +15,19 @@
     grid-template-rows: 1fr;
 }
 
-.schedule{
+
+
+.schedule {
     grid-column: schedule-s/schedule-e;
     position: relative;
     height: 100%;
     width: 100%;
 }
 
-.gradient{
+.gradient {
     position: absolute;
     height: 100%;
     width: 100%;
     background: linear-gradient(120deg, $color-purple 0%, $color-light-blue 100%);
     z-index: -10;
-
 }
-
-
-
