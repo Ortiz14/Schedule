@@ -1,10 +1,12 @@
 .library-course {
     display: grid;
-    grid-template-columns: 1fr 45px 58px;
+    grid-template-columns: 1fr 45px 58px [scroll-bar-space-s] 10px [scroll-bar-space-e];
     grid-template-rows: 32px 1fr;
 
     align-items: center;
     z-index: 50;
+
+    margin-right: 10px;
     
     &__title-check {
         grid-row: 1/2;
